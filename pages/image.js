@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/image_logo.png" className={styles.icon} />
+        <img src="/cam.png" className={styles.icon} />
         <h3>Image Generator</h3>
         <form onSubmit={onSubmit}>
           <input
