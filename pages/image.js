@@ -48,5 +48,4 @@ export default function Home() {
       </main>
     </div>
   );
-
 }
