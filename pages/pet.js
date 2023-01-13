@@ -1,11 +1,10 @@
-import Link from 'next/link'
 import Head from "next/head";
 import { useState } from "react";
-import styles from "./pet.module.css";
+import styles from "./index.module.css";
 
-const Pet = () => {
-    const [animalInput, setAnimalInput] = useState("");
-    const [result, setResult] = useState();
+export default function Home() {
+  const [animalInput, setAnimalInput] = useState("");
+  const [result, setResult] = useState();
 
   async function onSubmit(event) {
     event.preventDefault();
@@ -23,7 +22,7 @@ const Pet = () => {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Put a name to my pet</title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
@@ -44,6 +43,4 @@ const Pet = () => {
       </main>
     </div>
   );
-};
-
-export default Pet;
+}
