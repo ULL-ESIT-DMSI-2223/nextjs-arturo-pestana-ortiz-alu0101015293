@@ -1,6 +1,0 @@
-para crear un package.json se hace de la siguiente forma:
- - npm init -f (saltar las preguntas), -y (aceptar todo)
-
-Diferencia entre un package.json y package-lock.json es:
-- El package.json tiene las dependencies con sus versiones para que funcionen en todos los pcs.
-- El package-lock.json tiene las dependencies de las dependencies y asi nos aseguramos que todos los paquetes a instalar funcinan.
