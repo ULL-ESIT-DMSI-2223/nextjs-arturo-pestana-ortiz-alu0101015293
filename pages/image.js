@@ -10,7 +10,7 @@ export default function Home() {
 
   async function onSubmit(event) {
     event.preventDefault();
-    const response = await fetch("/api/image_Generator", {
+    const response = await fetch("/api/generateImage", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -26,7 +26,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Image Generator</title>
-        <link rel="icon" href="/image_logo.png" />
+        <link rel="icon" href="/cam.png" />
       </Head>
 
       <main className={styles.main}>
